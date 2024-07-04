@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header, nav, main, section {
+            margin: 20px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: blue;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .gallery-grid img {
+            width: 100%;
+            height: auto;
+        }
+        .menu-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu-list li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Webpage</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to our website! Explore our sections on technology, nature, and food.</p>
+            <a href="https://www.pexels.com/photo/black-and-white-laptop-computer-on-brown-wooden-desk-356056/" target="_blank">
+                <img src=c:\Users\Tekim\Pictures\technology tools.jpg alt="Technology Image">
+            </a>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <a href="https://www.pexels.com/photo/green-grass-near-trees-1770809/" target="_blank">
+                    <img src="c:\Users\Tekim\Pictures\green grass and trees.jpg" alt="Nature Image 1">
+                </a>
+                <a href="https://www.pexels.com/photo/close-up-photo-of-purple-lilac-flowers-1381679/" target="_blank">
+                    <img src="c:\Users\Tekim\Pictures\purple lilac.jpg" alt="Nature Image 2">
+                </a>
+                <a href="https://www.pexels.com/photo/low-angle-shot-of-rock-formation-1366909/" target="_blank">
+                    <img src="c:\Users\Tekim\Pictures\rocks.jpg" alt="Nature Image 3">
+                </a>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2>Menu</h2>
+            <ul class="menu-list">
+                <li>
+                    <a href="https://www.pexels.com/photo/pancake-with-sliced-strawberry-376464/" target="_blank">pancake</a>
+                        <img src="c:\Users\Tekim\Pictures\pancake.jpg" alt="pancake Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.pexels.com/photo/salad-on-a-plate-2097090/" target="_blank">salad</a>
+                        <img src="c:\Users\Tekim\Pictures\salad.jpg" alt="salad Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.pexels.com/photo/selective-focus-photography-of-pasta-with-tomato-and-basil-1279330/" target="_blank">pasta</a>
+                        <img src="c:\Users\Tekim\Pictures\pasta.jpg" alt="pasta Image">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
